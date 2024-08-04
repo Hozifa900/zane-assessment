@@ -29,26 +29,28 @@ public class PlanController {
                         return new ResponseEntity<>(response, HttpStatus.UNAUTHORIZED);
                 }
                 List<Object> data = new ArrayList<>();
-                Map<String, Object> plan = new HashMap<>();
-                plan.put(
+                Map<String, Object> plan1 = new HashMap<>();
+                plan1.put(
                                 "id", "1");
-                plan.put("title", "Packaging Design");
-                plan.put("score", 40);
-                plan.put("outOf", 48);
-                data.add(plan);
-                plan.put(
+                plan1.put("title", "Packaging Design");
+                plan1.put("score", 40);
+                plan1.put("outOf", 48);
+                data.add(plan1);
+                Map<String, Object> plan2 = new HashMap<>();
+                plan2.put(
                                 "id", "2");
-                plan.put("title", "Product Design");
-                plan.put("score", 6);
-                plan.put("outOf", 24);
-                data.add(plan);
+                plan2.put("title", "Product Design");
+                plan2.put("score", 6);
+                plan2.put("outOf", 24);
+                data.add(plan2);
 
-                plan.put(
+                Map<String, Object> plan3 = new HashMap<>();
+                plan3.put(
                                 "id", "3");
-                plan.put("title", "Software Design");
-                plan.put("score", 89);
-                plan.put("outOf", 100);
-                data.add(plan);
+                plan3.put("title", "Software Design");
+                plan3.put("score", 89);
+                plan3.put("outOf", 100);
+                data.add(plan3);
 
                 response.put(
                                 "success", true);
