@@ -17,7 +17,7 @@ public class PlanController {
                 Map<String, Object> response = new HashMap<>();
                 System.out.println(token);
                 if (!token.equals(
-                                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkzNDAxODUyLCJleHAiOjE2OTQwMDY2NTJ9.pIj3j0Sw3RmF-f4_YnfiwG8uMkMY-U0OSMG9ml27E0s")) {
+                                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkzNDAxODUyLCJleHAiOjE2OTQwMDY2NTJ9.pIj3j0Sw3RmF-f4_YnfiwG8uMkMY-U0OSMG9ml27")) {
                         response.put(
                                         "success", false);
                         response.put(
@@ -48,8 +48,8 @@ public class PlanController {
                 plan3.put(
                                 "id", "3");
                 plan3.put("title", "Software Design");
-                plan3.put("score", 89);
-                plan3.put("outOf", 100);
+                plan3.put("score", 10);
+                plan3.put("outOf", 101);
                 data.add(plan3);
 
                 response.put(

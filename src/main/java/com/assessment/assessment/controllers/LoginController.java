@@ -30,7 +30,7 @@ public class LoginController {
                 }
                 List<String> data = new ArrayList<>();
                 data.add(
-                                "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkzNDAxODUyLCJleHAiOjE2OTQwMDY2NTJ9.pIj3j0Sw3RmF-f4_YnfiwG8uMkMY-U0OSMG9ml27E0s");
+                                "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkzNDAxODUyLCJleHAiOjE2OTQwMDY2NTJ9.pIj3j0Sw3RmF-f4_YnfiwG8uMkMY-U0OSMG9ml27");
 
                 response.put(
                                 "success", true);
